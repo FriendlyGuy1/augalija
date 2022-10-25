@@ -1,0 +1,33 @@
+.active  {
+    color: rgb(71, 158, 71) !important;
+}
+
+body {
+    padding-top: 100px;
+}
+
+.custom-background {
+    background-image: url(images/miskas.jpg);
+}
+
+
+.box {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-fluid {
+    height: 100vh;
+}
+
+
+.custom-margin {
+    margin-top: 10rem;
+}
+
+.custom-padding {
+    padding-top: 10rem;
+}
