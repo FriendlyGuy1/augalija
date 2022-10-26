@@ -8,14 +8,25 @@ body {
 
 .custom-background {
     background-image: url(images/miskas.jpg);
+    background-repeat: no-repeat;
+    
 }
 
+.custom-background-woods {
+    background-image: url(images/miskas2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .box {
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: white;
+    height: 30rem;
+    width: 85rem;
+    
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -30,4 +41,19 @@ body {
 
 .custom-padding {
     padding-top: 10rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .box {
+        width: 15rem;
+        height: 15rem;
+
+        top: 25%;
+    }
+
+    .custom-padding {
+        padding-top: 2rem;
+    }
+
 }
